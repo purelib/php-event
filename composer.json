@@ -1,5 +1,5 @@
 {
-    "name": "purelib/php-event",
+    "name": "purelib/event",
     "description": "一个php事件管理器，参考zendframework/zend-eventmanager并做了简化，与它接口并不兼容",
     "type": "library",
     "homepage": "http://purelib.com",
