@@ -1,11 +1,12 @@
 <?php
-namespace PureLib\Event;
 /**
  * PureLib (http://purelib.org/)
  *
  * @link      https://github.com/purelib/php-event for the canonical source repository
  * @license   https://github.com/purelib/php-event/blob/master/LICENSE
  */
+
+namespace PureLib\Event;
 
 class StackCollection extends \SplStack
 {
