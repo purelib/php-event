@@ -45,6 +45,7 @@ class EventManager
     public function trigger($event_name, $target = null, $params = array(), $callback = null)
     {
         if (!isset($this->listeners[$event_name])) {
+            $collection = new StackCollection();
             return false;
         }
 
